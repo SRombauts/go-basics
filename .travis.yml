@@ -5,5 +5,5 @@ go:
   - 1.1
   - tip
 
-script: ./build.sh && ./test.sh
+script: go build -v ./... && go test -v ./...
 
